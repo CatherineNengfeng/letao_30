@@ -29,16 +29,16 @@
         <div class="lt_nav">
             <ul>
                 <li><a href="user.html"><i class="glyphicon glyphicon-user"></i><span>用户管理</span></span></a></li>
-                <li><a class="current" href="javascript:;" id="category"><i class="glyphicon glyphicon-list"></i><span>分类管理</span></span></>
+                <li><a href="javascript:;" id="category"><i class="glyphicon glyphicon-list"></i><span>分类管理</span></span></a>
                     <!-- 用于切换显示的二级列表 -->
-                    <div class="child">
+                    <div class="child" style="display:block">
                         <a href="first.html">一级分类</a>
-                    <a href="second.html">二级分类</a>
+                        <a class="current" href="second.html">二级分类</a>
+                    </div>
+                </li>
+                <li><a href="product.html"><i class="glyphicon  glyphicon-tags"></i><span>商品管理</span></span></a></li>
+            </ul>
         </div>
-        </li>
-        <li><a href="product.html"><i class="glyphicon  glyphicon-tags"></i><span>商品管理</span></span></a></li>
-        </ul>
-    </div>
     </div>
     <!--右侧主体部分-->
     <div class="lt_main ">
@@ -103,7 +103,7 @@
     <script src="./lib/echarts/echarts.common.min.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/isLogin.js"></script>
-    <script src="./js/index.js"></script>
+
 
 </body>
 
